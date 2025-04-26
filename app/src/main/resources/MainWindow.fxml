@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.ImageView?>
+
+<StackPane fx:id="mainWindowRoot" fx:controller="app.MainWindow" xmlns:fx="http://javafx.com/fxml" stylesheets="@MainWindow.css">
+<VBox alignment="CENTER" spacing="10">
+<TextField fx:id="promptField" promptText="Enter a prompt...."/>
+<Button fx:id="generateButton" text="Click to generate image"/>
+<ImageView fx:id="imageView" fitWidth="400" preserveRatio="true"/>
+</VBox>
+</StackPane>
