@@ -23,7 +23,7 @@ public class HuggingFace{
             API_KEY = scanner.nextLine().trim();
             scanner.close();
         } catch (FileNotFoundException e) {
-            System.err.println("ERROR: apikey.txt not found!");
+            System.err.println("apikey.txt not found!");
             API_KEY = "";
         }
     }
@@ -37,10 +37,10 @@ public class HuggingFace{
             connection.setRequestProperty("Content-Type", "application/json");
             connection.setDoOutput(true);
 
-            String requestBody = "{\"inputs\":\"" + prompt + "\"}";
+            String requestBody = "{\"inputs\":\"" + prompt + "\"}"; //Json format
 
-            try (OutputStream os = connection.getOutputStream()) {
-                os.write(requestBody.getBytes());
+            try (OutputStream outputStream = connection.getOutputStream()) {
+                outputStream.write(requestBody.getBytes());
             }
 
             InputStream inputStream = connection.getInputStream();

@@ -20,6 +20,7 @@ public class MainWindow{
     @FXML
     private void initialize(){
         generateButton.setOnAction(e -> generateImage());
+        promptField.setOnAction(e -> generateImage());
 
     }
 

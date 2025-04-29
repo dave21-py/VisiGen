@@ -7,8 +7,11 @@
 
 <StackPane fx:id="mainWindowRoot" fx:controller="app.MainWindow" xmlns:fx="http://javafx.com/fxml" stylesheets="@MainWindow.css">
 <VBox alignment="CENTER" spacing="10">
+<Label text="Welcome to AI Image Generation" style="-fx-text-fill: white; -fx-font-family: 'Arial'; -fx-font-size: 38px;"/>
 <TextField fx:id="promptField" promptText="Enter a prompt...."/>
 <Button fx:id="generateButton" text="Click to generate image"/>
 <ImageView fx:id="imageView" fitWidth="400" preserveRatio="true"/>
+<Label text="© David Geddam" style="-fx-text-fill: white; -fx-font-family: 'Arial'; -fx-font-size: 18px;"/>
+
 </VBox>
 </StackPane>

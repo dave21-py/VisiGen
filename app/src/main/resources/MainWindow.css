@@ -1,0 +1,18 @@
+.root {
+    -fx-padding: 10; /* Add a small padding around the window */
+    padding: 10;     /* duplicated for compatibility */
+    -fx-background-color:    #000428;
+} 
+
+#promptField{
+    -fx-background-color:   #000428;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;     
+    -fx-border-radius: 20;          
+    -fx-border-color: #5c5c5e;      
+    -fx-border-width: 1.5;          
+    -fx-padding: 10 15 10 15;       
+    -fx-font-size: 15px;
+
+
+}
