@@ -20,7 +20,7 @@
 <Button text="↑" styleClass="image" layoutX="700" layoutY="70" fx:id="generateButton" />
 </AnchorPane>
 <AnchorPane pickOnBounds="false">
-<Button text="1v" styleClass="image" layoutX="160" layoutY="70" fx:id="generateButton" />
+<Button text="1v" styleClass="image" layoutX="160" layoutY="70" />
 </AnchorPane>
 </StackPane>
 <ImageView fx:id="imageView" fitWidth="400" preserveRatio="true"/>

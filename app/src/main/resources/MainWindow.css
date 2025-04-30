@@ -9,13 +9,13 @@
     -fx-prompt-text-fill: #888;
     -fx-background-radius: 16;
     -fx-border-radius: 16;
-    -fx-border-color: transparent;
+    -fx-border-color: #888;
     -fx-padding: 10 15 10 15;
     -fx-font-size: 14px;
 }
 .textfield:focused{
     -fx-border-color: #1e1e1e;
-    -fx-border-width: 1.2;
+    -fx-border-width: 1.5;
 }
 .generate{
     -fx-background-color: #1e1e1e;
@@ -38,7 +38,7 @@
     -fx-text-fill: white;
     -fx-background-radius: 16;
     -fx-border-radius: 16;
-    -fx-border-color: transparent;
+    -fx-border-color: black;
     -fx-padding: 10 15 10 15;
     -fx-font-size: 14px;
 
