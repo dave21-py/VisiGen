@@ -7,11 +7,25 @@
 
 <StackPane fx:id="mainWindowRoot" fx:controller="app.MainWindow" xmlns:fx="http://javafx.com/fxml" stylesheets="@MainWindow.css">
 <VBox alignment="CENTER" spacing="10">
-<Label text="Welcome to AI Image Generation" style="-fx-text-fill: white; -fx-font-family: 'Arial'; -fx-font-size: 38px;"/>
-<TextField fx:id="promptField" promptText="Enter a prompt...."/>
-<Button fx:id="generateButton" text="Click to generate image"/>
+<Label text="Hello There!" style="-fx-text-fill: white; -fx-font-family: 'Arial'; -fx-font-size: 38px;"/>
+<StackPane alignment="CENTER_LEFT" maxWidth="600">
+<TextField fx:id="promptField" promptText="Describe your image...." styleClass="textfield" prefHeight="110"/>
+<AnchorPane pickOnBounds="false">
+<Button text="🖼 Image" styleClass="image" layoutX="1" layoutY="70"/>
+</AnchorPane>
+<AnchorPane pickOnBounds="false">
+<Button text="2:3" styleClass="image" layoutX="100" layoutY="70"/>
+</AnchorPane>
+<AnchorPane pickOnBounds="false">
+<Button text="↑" styleClass="image" layoutX="700" layoutY="70" fx:id="generateButton" />
+</AnchorPane>
+<AnchorPane pickOnBounds="false">
+<Button text="1v" styleClass="image" layoutX="160" layoutY="70" />
+</AnchorPane>
+</StackPane>
 <ImageView fx:id="imageView" fitWidth="400" preserveRatio="true"/>
-<Label text="© David Geddam" style="-fx-text-fill: white; -fx-font-family: 'Arial'; -fx-font-size: 18px;"/>
+<Region prefHeight="40"/>
+<Label text="© 2025 David Geddam" style="-fx-text-fill: white; -fx-font-family: 'Arial'; -fx-font-size: 18px;"/>
 
 </VBox>
 </StackPane> 
