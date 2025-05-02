@@ -1,4 +1,4 @@
-# CUATROS
+# HUGGING FACE IMAGE GENERATOR
 
 <p align="center">
 <img src="logo.png"
