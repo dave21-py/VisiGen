@@ -84,7 +84,7 @@ javafx {
 If you find our work useful, please consider citing:
 
 ```
-title={HUGGINGFACEIMAGEGENERATOR},
+title={VisiGen},
   author={David Geddam},
   year={2025}
 }
