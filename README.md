@@ -10,93 +10,28 @@ width="400">
 
 ## ❔Overview
 
-Cuatros is a block puzzle game where players shift and rotate falling four-square shaped blocks to fill lines horizontally. As the lines of blocks are filled, the lines will be cleared, awarding the player points for each line cleared. As the game progresses, the blocks will fall at a higher rate and will require quicker decision making to survive. The game ends when the player's screen is filled to the top with no more space for another block to spawn. The score is calculated by how many blocks have been placed and the number of lines that have been cleared.
+The Hugging Face Image Generator is an intuitive JavaFX desktop application that transforms text prompts into almost detail images using a cutting-edge AI model's API hosted on Hugging Face. Designed for developers and AI enthusiasts, this tool seamlessly integrates natural language input with real-time image generation.
+Users can enter descriptive text, press a button (or hit Enter), and receive a medium-quality AI-generated image in a few seconds. Powered with JavaFX, Java 21 and JavaFX, ideal for desktop platforms.
+NOTE:
+This application is in development phase only. More Updates and Features Coming Soon!
+Stay tuned.
 
-## 🎮 Controls
 
-The controls of this game are quite simple. You can navigate the current block by either using the arrow keys or WASD.
-- LEFT ARROW / A - shift block left
-- RIGHT ARROW / D - shift block right
-- DOWN ARROW / W - move block down
-- UP ARROW / S - rotate block
-- SPACEBAR - drop block instantly
--  C - hold / change block
-
-## ✨ Story Points: Second Sprint Completion (13 Points)
-- Title Screen: 1 point  
-- About Screen: 1 point  
-- Help Screen: 1 point  
-- Game Music: 2 points  
-- Game Window: 1 point  
-
-* Gameplay - Spawn Blocks: 1 point
-* Gameplay - Controls: 2 points
-* Gameplay - Rotate Block: 1 point
-* Gameplay - Collisions: 2 points
-* Gameplay - Pause Menu: 1 point
-
-## 🎯 Final Sprint Targets (13 Points)
-- Scoring: 1 point COMPLETE
-- Difficulty Levels (Speed): 1 point COMPLETE
-- Leaderboard: 2 points COMPLETE
-- Sound Effects: 2 points COMPLETE
-
-* Gameplay - Randomize Block: 2 points COMPLETE
-* Gameplay - Show Next Blocks: 1 point COMPLETE
-* Gameplay - Line Clearing: 2 points COMPLETE
-* Gameplay - Hold Block: 2 points COMPLETE
-
-## Final Sprint: Total Points Completed (27 Points)
-- Title Screen: 1 point  
-- About Screen: 1 point  
-- Help Screen: 1 point  
-- Game Music: 2 points  
-- Game Window: 1 point 
-- Scoring: 1 point
-- Difficulty Levels (Speed): 2 points
-- Leaderboard: 2 points
-- Sound Effects: 2 points
-- Gameplay - Spawn Blocks: 1 point
-- Gameplay - Controls: 2 points
-- Gameplay - Rotate Block: 1 point
-- Gameplay - Collisions: 2 points
-- Gameplay - Pause Menu: 1 point
-- Gameplay - Randomize Block: 2 points
-- Gameplay - Show Next Blocks: 1 point
-- Gameplay - Line Clearing: 2 points
-- Gameplay - Hold Block: 2 points
-
-## Uncompleted Points
-- Optional Cheat Mode: 3 points
-- Optional Game Levels: 3 points
-- Optional Power-ups: 2 points
-- Optional Save/Load: 3 points
-- Optional Game Modes: 4 points
-
-## 👀 Game Demo (FINAL SPRINT)
+## 👀 Demo
 
 🎬 [Watch the demo](CuatrosGame.mp4)
 
 
-
-### ✨ CUATROS Title Screen
+### ✨ HuggingFaceImageGenerator Title Screen
 
 <p align="center">
 <img src="titlescreen.png"
 width="400">
 </p>
 
-### ✨ CUATROS Game Screen
-
-<p align="center">
-<img src="gamescreen.png"
-width="400">
-</p>
-
 #### System Requirements
 
 > Both MacOS and Windows supported.
-> Better optimized for MacOS.
 
 
 ## Code
@@ -104,7 +39,7 @@ width="400">
 ### 🛠️ Environment Setup
 
 ```bash
-git clone https://github.com/bjucps209/group-project-team-jd.git
+git clone https://github.com/dave21-py/huggingface-image-generator.git
 ```
 
 #### Gradle Setup
@@ -139,29 +74,18 @@ javafx {
 }
 ```
 
-## 🎯 Expenses and Contributions
-
-
-|      Name          | Total Hours | Journal |
-|--------------------|-------------|---------------              
-|    John Tam        |      35     | [John](https://github.com/bjucps209/group-project-team-jd/wiki/Project-Journal#john-tam)|
-|   David Geddam     |      40     | [David](https://github.com/bjucps209/group-project-team-jd/wiki/Project-Journal#david-geddam)|
-|  Daniel Cornelius  |     30.5    | [Daniel](https://github.com/bjucps209/group-project-team-jd/wiki/Project-Journal#daniel-cornelius)|
-
 ## ✨ Credits
 
-> + John Tam [github.com](https://github.com/jtam496)
 > + David Geddam [github.com](https://github.com/dave21-py)
-> + Daniel Cornelius [github.com](https://github.com/dcorn713)
+
 
 ## 🚀 Citation
 
 If you find our work useful, please consider citing:
 
 ```
-title={CUATROS},
-  author={John Tam, Daniel Cornelius and David Geddam},
-  journal={[Journal](https://github.com/bjucps209/group-project-team-jd/wiki/Project-Journal#david-geddam)},
+title={HUGGINGFACEIMAGEGENERATOR},
+  author={David Geddam},
   year={2025}
 }
 ```
