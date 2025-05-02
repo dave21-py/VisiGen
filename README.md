@@ -1,4 +1,4 @@
-# HUGGING FACE IMAGE GENERATOR
+# VisiGen
 
 <p align="center">
 <img src="logo.png"
@@ -10,7 +10,7 @@ width="400">
 
 ## ❔Overview
 
-The Hugging Face Image Generator is an intuitive JavaFX desktop application that transforms text prompts into almost detail images using a cutting-edge AI model's API hosted on Hugging Face. Designed for developers and AI enthusiasts, this tool seamlessly integrates natural language input with real-time image generation.
+VisiGen is an Hugging Face Image Generator JavaFX desktop application that transforms text prompts into almost detail images using a cutting-edge AI model's API hosted on Hugging Face. Designed for developers and AI enthusiasts, this tool seamlessly integrates natural language input with real-time image generation.
 Users can enter descriptive text, press a button (or hit Enter), and receive a medium-quality AI-generated image in a few seconds. Powered with JavaFX, Java 21 and JavaFX, ideal for desktop platforms.
 NOTE:
 This application is in development phase only. More Updates and Features Coming Soon!
@@ -22,7 +22,7 @@ Stay tuned.
 🎬 [Watch the demo](CuatrosGame.mp4)
 
 
-### ✨ HuggingFaceImageGenerator Title Screen
+### ✨ VisiGen Title Screen
 
 <p align="center">
 <img src="titlescreen.png"
@@ -84,7 +84,7 @@ javafx {
 If you find our work useful, please consider citing:
 
 ```
-title={HUGGINGFACEIMAGEGENERATOR},
+title={VisiGen},
   author={David Geddam},
   year={2025}
 }
