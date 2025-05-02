@@ -55,3 +55,16 @@
 .image:pressed{
     -fx-background-color: #5a5a5a;
 }
+.logo-banner{
+    -fx-background-image: url("logo.png");
+    -fx-background-size: 40% 40%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-padding: 10;
+}
+.logo-banner:hover{
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-cursor: hand;
+
+}

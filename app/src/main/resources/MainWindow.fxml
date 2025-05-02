@@ -6,8 +6,10 @@
 <?import javafx.scene.image.ImageView?>
 
 <StackPane fx:id="mainWindowRoot" fx:controller="app.MainWindow" xmlns:fx="http://javafx.com/fxml" stylesheets="@MainWindow.css">
+ <Pane fx:id="logo" prefWidth="600" prefHeight="900" styleClass="logo-banner" translateY="-170"/>
 <VBox alignment="CENTER" spacing="10">
-<Label text="Hello There!" style="-fx-text-fill: white; -fx-font-family: 'Arial'; -fx-font-size: 38px;"/>
+<Region prefHeight="100"/>
+<!-- <Label text="Hello There!" style="-fx-text-fill: white; -fx-font-family: 'Arial'; -fx-font-size: 38px;"/> -->
 <StackPane alignment="CENTER_LEFT" maxWidth="600">
 <TextField fx:id="promptField" promptText="Describe your image...." styleClass="textfield" prefHeight="110"/>
 <AnchorPane pickOnBounds="false">
