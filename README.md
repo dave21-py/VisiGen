@@ -22,7 +22,7 @@ Stay tuned.
 🎬 [Watch the demo](CuatrosGame.mp4)
 
 
-### ✨ HuggingFaceImageGenerator Title Screen
+### ✨ VisiGen Title Screen
 
 <p align="center">
 <img src="titlescreen.png"
