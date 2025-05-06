@@ -29,6 +29,14 @@ Stay tuned.
 width="400">
 </p>
 
+### 👀 Demo Prompts
+
+<p align="center">
+<img src="demo1.png"
+width="400">
+</p>
+
+
 #### System Requirements
 
 > Both MacOS and Windows supported.
