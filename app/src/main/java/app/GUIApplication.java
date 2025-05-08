@@ -16,7 +16,7 @@ public class GUIApplication extends Application{
         MainWindow controller = loader.getController();
         // controller.setPrimaryStage(primaryStage);
 
-        var scene = new Scene(root, 800, 600);
+        var scene = new Scene(root, 1200, 800);
 
         primaryStage.setScene(scene);
         primaryStage.setTitle("Hugging Face Image Generator"); // Title of main window

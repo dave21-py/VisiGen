@@ -1,35 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
-<?import javafx.scene.image.ImageView?>
 
-<StackPane fx:id="mainWindowRoot" fx:controller="app.MainWindow" xmlns:fx="http://javafx.com/fxml" stylesheets="@MainWindow.css">
- <Pane fx:id="logo" prefWidth="600" prefHeight="900" styleClass="logo-banner" translateY="-170"/>
-<VBox alignment="CENTER" spacing="10">
-<Region prefHeight="100"/>
-<!-- <Label text="Hello There!" style="-fx-text-fill: white; -fx-font-family: 'Arial'; -fx-font-size: 38px;"/> -->
-<StackPane alignment="CENTER_LEFT" maxWidth="600">
-<TextField fx:id="promptField" promptText="Describe your image...." styleClass="textfield" prefHeight="110"/>
-<AnchorPane pickOnBounds="false">
-<Button text="🖼 Image" styleClass="image" layoutX="1" layoutY="70"/>
-</AnchorPane>
-<AnchorPane pickOnBounds="false">
-<Button text="2:3" styleClass="image" layoutX="100" layoutY="70"/>
-</AnchorPane>
-<AnchorPane pickOnBounds="false">
-<Button text="↑" styleClass="image" layoutX="700" layoutY="70" fx:id="generateButton" />
-</AnchorPane>
-<AnchorPane pickOnBounds="false">
-<Button text="1v" styleClass="image" layoutX="160" layoutY="70" />
-</AnchorPane>
+<StackPane fx:id="mainWindowRoot" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.MainWindow" stylesheets="@MainWindow.css">
+
+    <!-- Main Content Area -->
+    <VBox alignment="TOP_CENTER" spacing="20" maxWidth="700" prefHeight="1000">
+        <padding>
+            <Insets top="40" right="20" bottom="20" left="20" />
+        </padding>
+
+        <!-- Logo -->
+        <ImageView fx:id="logoImageView" fitHeight="180" preserveRatio="true" styleClass="logo-image">
+            <image>
+                <Image url="@logo.png" />
+            </image>
+        </ImageView>
+
+
+        <!-- Image Display Area -->
+        <StackPane fx:id="imageDisplayArea" minHeight="200" VBox.vgrow="ALWAYS" alignment="CENTER">
+             <padding>
+                 <Insets top="20" bottom="20"/>
+             </padding>
+            <ImageView fx:id="imageView" fitWidth="500" preserveRatio="true" />
+            <Label text="Your generated image will appear here" textFill="#555555" fx:id="placeholderText"/>
+        </StackPane>
+
+         
+        <Region VBox.vgrow="ALWAYS" minHeight="10"/>
+
+
+        <HBox fx:id="inputAreaContainer" alignment="CENTER_LEFT" spacing="10" styleClass="input-area-container">
+            <padding>
+                <Insets top="8" right="10" bottom="8" left="10"/>
+            </padding>
+
+            <!-- Plus Button -->
+            <Button fx:id="addButton" text="+" styleClass="icon-button-circular" minWidth="30" minHeight="30"/>
+
+            <!-- Main Input Controls (Text Field and Options) -->
+            <VBox HBox.hgrow="ALWAYS" spacing="8">
+                <TextField fx:id="promptField" promptText="Describe your image..." styleClass="prompt-field"/>
+                <HBox spacing="8" alignment="CENTER_LEFT" styleClass="options-bar">
+                    <!-- Image Button -->
+                    <Button fx:id="imageSettingsButton" text="Image" styleClass="option-button">
+                    </Button>
+                    <!--3:2 Button -->
+                    <Button fx:id="aspectRatio32Button" text="3:2" styleClass="option-button">
+                    </Button>
+                    <!-- 1v Button -->
+                    <Button fx:id="variationsButton" text="1v" styleClass="option-button">
+                    </Button>
+                
+                    <!-- Help Button -->
+                    <Button fx:id="helpButton" text="?" styleClass="icon-button-circular" minWidth="28" minHeight="28"/>
+                </HBox>
+            </VBox>
+
+            <!-- Send Button -->
+            <Button fx:id="sendButton" text="↑" styleClass="send-button" minWidth="40" minHeight="40"/>
+            <HBox.margin>
+                <Insets left="5"/>
+            </HBox.margin>
+        </HBox>
+        <!-- End of modified Input Area -->
+
+
+
+        <!-- Copyright Footer -->
+        <Label text="© 2025 David Geddam" styleClass="copyright-label" fx:id="copyright"/>
+
+    </VBox>
 </StackPane>
-<ImageView fx:id="imageView" fitWidth="400" preserveRatio="true"/>
-<Region prefHeight="40"/>
-<Label text="© 2025 David Geddam" style="-fx-text-fill: white; -fx-font-family: 'Arial'; -fx-font-size: 18px;"/>
-
-</VBox>
-</StackPane> 
-
-
