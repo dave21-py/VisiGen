@@ -19,7 +19,7 @@ Stay tuned.
 
 ## 👀 Demo
 
-🎬 [Watch the demo](CuatrosGame.mp4)
+🎬 [Watch the demo]()
 
 
 ### ✨ VisiGen Title Screen
@@ -31,8 +31,23 @@ width="400">
 
 ### 👀 Demo Prompts
 
+#### Prompt 1:
+```bash
+An ethereal, three-dimensional neural network visualizing real-time sentiment analysis from global data streams. Nodes pulse with color-coded light blue for positive, red for negative, yellow for neutral, interconnected by shimmering, flowing data pathways. Abstract, intricate, glowing, high detail, cinematic lighting, bokeh background.
+```
+
 <p align="center">
 <img src="demo1.png"
+width="400">
+</p>
+
+#### Prompt 2:
+```bash
+Interior of a futuristic autonomous vehicle. The windshield is a fully transparent, adaptive display showing AI-curated points of interest, navigation overlays, and personalized entertainment. Passengers interact with the system using natural language and subtle hand gestures. Luxurious, ambient lighting, wide-angle shot, detailed interior.
+```
+
+<p align="center">
+<img src="demo2.png"
 width="400">
 </p>
 
