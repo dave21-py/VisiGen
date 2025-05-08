@@ -51,6 +51,16 @@ Interior of a futuristic autonomous vehicle. The windshield is a fully transpare
 width="400">
 </p>
 
+#### Prompt 3:
+```bash
+A sunset over the ocean with glowing waves
+```
+
+<p align="center">
+<img src="demo3.png"
+width="400">
+</p>
+
 
 #### System Requirements
 
