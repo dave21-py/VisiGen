@@ -10,9 +10,11 @@
   <img alt="Java" src="https://img.shields.io/badge/Java-21+-red?logo=openjdk" />
   <img alt="JavaFX" src="https://img.shields.io/badge/JavaFX-23.0-blue?logo=java" />
   <img alt="Gradle" src="https://img.shields.io/badge/Gradle-8.x-02303A?logo=gradle&logoColor=white" />
-  <img alt="Hugging Face API" src="https://img.shields.io/badge/AI-Hugging_Face-Diffusers-FDEE21?logo=huggingface&logoColor=black" />
+  <img alt="Hugging Face API" src="https://img.shields.io/badge/AI-Hugging_Face--Diffusers-FDEE21?logo=huggingface&logoColor=black" />
   <img alt="Stars" src="https://img.shields.io/github/stars/dave21-py/VisiGen?style=social" />
-</p>
+</p>```
+
+By making this change, your Hugging Face badge should now display correctly on your project's README.
 
 <p align="center">
   <a href="demo.gif">View Demo</a> ·
